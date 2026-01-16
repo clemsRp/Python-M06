@@ -6,21 +6,21 @@ from alchemy.grimoire.spellbook import record_spell
 
 def main() -> None:
     print("Testing ingredient validation:")
-    print("validate_ingredients(\"fire air\"):", end="")
+    print("validate_ingredients(\"fire air\"): ", end="")
     print(validate_ingredients("fire air"))
-    print("validate_ingredients(\"dradon scales\"):", end="")
+    print("validate_ingredients(\"dradon scales\"): ", end="")
     print(validate_ingredients("dragon scales"))
     print()
 
     print("Testing spell recording with validation:")
-    print("record_spell(\"Fireball\", \"fire air\"):", end="")
+    print("record_spell(\"Fireball\", \"fire air\"): ", end="")
     print(record_spell("Fireball", "fire air"))
-    print("record_spell(\"Dark Magic\", \"shadow\"):", end="")
+    print("record_spell(\"Dark Magic\", \"shadow\"): ", end="")
     print(record_spell("Dark Magic", "shadow"))
     print()
 
     print("Testing late import technique:")
-    print("record_spell(\"Lightning\", \"air\"):", end="")
+    print("record_spell(\"Lightning\", \"air\"): ", end="")
     print(record_spell("Lightning", "air"))
     print()
 

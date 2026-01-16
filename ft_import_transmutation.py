@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import alchemy.elements
-from alchemy.elements import create_fire
 from alchemy.potions import healing_potion as heal
 from alchemy.elements import create_fire, create_water
 

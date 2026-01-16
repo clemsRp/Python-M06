@@ -20,7 +20,7 @@ def main() -> None:
         print("alchemy.create_fire():", alchemy.create_fire())
     except AttributeError:
         print("alchemy.create_earth(): AttributeError - not exposed")
-    
+
     try:
         print("alchemy.create_water():", alchemy.create_water())
     except AttributeError:
@@ -29,7 +29,7 @@ def main() -> None:
         print("alchemy.create_earth():", alchemy.create_earth())
     except AttributeError:
         print("alchemy.create_earth(): AttributeError - not exposed")
-    
+
     try:
         print("alchemy.create_air():", alchemy.create_air())
     except AttributeError:
