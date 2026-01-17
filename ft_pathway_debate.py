@@ -13,15 +13,15 @@ def main() -> None:
     print()
 
     print("Testing Relative Imports (from advanced.py):")
-    print("philosophers_stone():", end="")
+    print("philosophers_stone(): ", end="")
     print(philosophers_stone())
     print("elixir_of_life():", elixir_of_life())
     print()
 
     print("Testing Package Access:")
-    print("alchemy.transmutation.lead_to_gold():", end="")
+    print("alchemy.transmutation.lead_to_gold(): ", end="")
     print(transmutation.lead_to_gold())
-    print("alchemy.transmutation.philosophers_stone():", end="")
+    print("alchemy.transmutation.philosophers_stone() :", end="")
     print(transmutation.philosophers_stone())
     print()
 
