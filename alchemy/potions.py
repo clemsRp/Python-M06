@@ -4,15 +4,18 @@ from . import elements
 
 
 def healing_potion() -> str:
-    return f"Healing potion brewed with {elements.create_fire()} and {elements.create_water()}"
+    f, w = elements.create_fire(), elements.create_water()
+    return f"Healing potion brewed with {f} and {w}"
 
 
 def strength_potion() -> str:
-    return f"Strength potion brewed with {elements.create_earth()} and {elements.create_fire()}"
+    e, f = elements.create_earth(), elements.create_fire()
+    return f"Strength potion brewed with {e} and {f}"
 
 
 def invisibility_potion() -> str:
-    return f"Invisibility potion brewed with {elements.create_air()} and{elements.create_water()}"
+    a, w = elements.create_air(), elements.create_water()
+    return f"Invisibility potion brewed with {a} and{w}"
 
 
 def wisdom_potion() -> str:
